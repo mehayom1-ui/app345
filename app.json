@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "my-wellness-app",
+    "slug": "my-wellness-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "mywellnessapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "CAMERA"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.mehayom1.mywellnessapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d59a2c26-668d-42c7-a7f7-ec1a3ad3ed35"
+      }
+    }
+  }
+}
